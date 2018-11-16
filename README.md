@@ -64,8 +64,29 @@ c. It’s important to understand how the `cardIndexes` method works, and how th
 d. Complete the following `printCards` method to print all of the elements of cards that are indexed by `cIndexes`.
 ```java
 public static printCards(ElevensBoard board) {
-	List<Integer> cIndexes = board.cardIndexes();
-	/* Your code goes here. */
+    List<Integer> cIndexes = board.cardIndexes();
+    /* Your code goes here. */
+}
 ```
 
 e. Which one of the methods that you identified in question 4b above needs to call the `cardIndexes` method before calling the `containsPairSum11` and `containsJQK` methods? Why?
+
+## Elevens 8 Questions
+1. Discuss the similarities and differences between *Elevens*, *Thirteens*, and *Tens*.
+
+2. As discussed previously, all of the instance variables are declared in the `Board` class. But it is the `ElevensBoard` class that “knows” the board size, and the ranks, suits, and point values of the cards in the deck. How do the `Board` instance variables get initialized with the `ElevensBoard` values? What is the exact mechanism?
+
+3. Now examine the files `Board.java` and `ElevensBoard.java`, found in this repository. Identify the `abstract` methods in `Board.java`. See how these methods are implemented in `ElevensBoard`. Do they cover all the differences between *Elevens*, *Thirteens*, and *Tens* as discussed in question 1? Why or why not?
+
+## Elevens 9 Questions
+1. The size of the board is one of the differences between *Elevens* and *Thirteens*. Why is size not an abstract method?
+
+2. Why are there no abstract methods dealing with the selection of the cards to be removed or replaced in the array `cards`?
+
+3. Another way to create “IS-A” relationships is by implementing interfaces. Suppose that instead of creating an `abstract Board` class, we created the following `Board` interface, and had `ElevensBoard` implement it. Would this new scheme allow the Elevens GUI to call `isLegal` and `anotherPlayIsPossible` polymorphically? Would this alternate design work as well as the `abstract Board` class design? Why or why not?
+```java
+public interface Board {
+    boolean isLegal(List<Integer> selectedCards);
+    boolean anotherPlayIsPossible();
+}
+```
