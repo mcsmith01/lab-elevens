@@ -1,3 +1,30 @@
-# Elevens 1
+# Elevens Lab
 
-Follow the instructions provided in the student lab guide; you have one week to complete this lab. Once you have completed the lab, be sure to commit and push your code in Atom.
+This repository contains all of the code required to complete the portions of the Elevens lab that we will be doing in this class. I have reproduced any questions from the lab here; you should answer them in this document. Remember to commit and push your code once you have completed each portion of the lab.
+
+## Elevens 2
+1. Explain in your own words the difference between a deck and a card.
+
+
+2. Consider the deck initialized with the statements below. How many cards does the deck contain?
+```java
+String[] ranks = {"jack", "queen", "king"};
+String[] suits = {"blue", "red"};
+int pointValues = {11, 12, 13};
+Deck d = new Deck(ranks, suits, pointValues);
+```
+
+
+3. The game of Twenty-One is played with a deck of 52 cards. Ranks run from Ace (highest) down to 2 (lowest). Suits are spades, hearts, diamonds, and clubs as in many other games. A face card has a point value of 10; an Ace has a point value of 11; point values for 2...10 are 2...10, respectively. Specify the contents of `ranks`, `suits`, and `pointValues` so that the statement
+
+```java
+Deck d = new Deck(ranks, suits, pointValues);
+```
+
+initializes a deck for a Twenty-One game.
+
+
+4. Does the order of elements of the `ranks`, `suits`, and `pointValues` arrays matter?
+
+## Elevens 3
+1. Write a static method named `flip` that simulates a flip of a weighted coin by returning "`heads`" or "`tails`" each time it is called. The coin is twice as likely to turn up heads as tails. Thus, `flip` should return "`heads`" twice as often as it turns up "`tails`."

@@ -41,6 +41,7 @@ public class Card {
 	 * @return this <code>Card's</code> suit.
 	 */
 	public String suit() {
+		return "";
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
    }
 
@@ -49,6 +50,7 @@ public class Card {
 	 * @return this <code>Card's</code> rank.
 	 */
 	public String rank() {
+		return "";
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 	}
 
@@ -57,6 +59,7 @@ public class Card {
 	 * @return this <code>Card's</code> point value.
 	 */
 	public int pointValue() {
+		return -1;
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 	}
 
@@ -67,6 +70,7 @@ public class Card {
 	 *         false otherwise.
 	 */
 	public boolean matches(Card otherCard) {
+		return false;
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 	}
 
@@ -82,6 +86,7 @@ public class Card {
 	 */
 	@Override
 	public String toString() {
+		return "";
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 	}
 }
