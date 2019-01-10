@@ -8,12 +8,12 @@ This repository contains all of the code required to complete the portions of th
     * Answer
 
 2. Consider the deck initialized with the statements below. How many cards does the deck contain?
-```java
-String[] ranks = {"jack", "queen", "king"};
-String[] suits = {"blue", "red"};
-int pointValues = {11, 12, 13};
-Deck d = new Deck(ranks, suits, pointValues);
-```
+	```java
+	String[] ranks = {"jack", "queen", "king"};
+	String[] suits = {"blue", "red"};
+	int pointValues = {11, 12, 13};
+	Deck d = new Deck(ranks, suits, pointValues);
+	```
 
   *  * Answer
 
