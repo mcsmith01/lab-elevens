@@ -22,7 +22,7 @@ This repository contains all of the code required to complete the portions of th
 	Deck d = new Deck(ranks, suits, pointValues);
 	```
 
-  *  * Answer
+    * Answer
 
 4. Does the order of elements in the `ranks`, `suits`, and `pointValues` arrays matter?
 
@@ -109,7 +109,7 @@ This repository contains all of the code required to complete the portions of th
 	}
 	```
 
-  *  * Answer
+    * Answer
 
   * e. Which one of the methods that you identified in question 4b above needs to call the `cardIndexes` method before calling the `containsPairSum11` and `containsJQK` methods? Why?
 
