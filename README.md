@@ -15,7 +15,7 @@ This repository contains all of the code required to complete the portions of th
 	Deck d = new Deck(ranks, suits, pointValues);
 	```
 
-  *  * Answer
+    * Answer
 
 3. The game of Twenty-One is played with a deck of 52 cards. Ranks run from Ace (highest) down to 2 (lowest). Suits are spades, hearts, diamonds, and clubs as in many other games. A face card has a point value of 10; an Ace has a point value of 11; point values for 2...10 are 2...10, respectively. Specify the contents of `ranks`, `suits`, and `pointValues` so that the below statement initializes a deck for a Twenty-One game.
 	```java
@@ -91,15 +91,15 @@ This repository contains all of the code required to complete the portions of th
 
     * `cards`
 
-	| 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
-	|:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
-	| J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
+| 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
+|:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
+| J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
 
    *  * Answer
 
-	| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
-	|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-	|    |    |    |    |    |    |    |    |    |
+| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|    |    |    |    |    |    |    |    |    |
 
   * d. Complete the following `printCards` method to print all of the elements of cards that are indexed by `cIndexes`.
 	```java
