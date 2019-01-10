@@ -15,14 +15,14 @@ int pointValues = {11, 12, 13};
 Deck d = new Deck(ranks, suits, pointValues);
 ```
 
-    * Answer
+  *  * Answer
 
 3. The game of Twenty-One is played with a deck of 52 cards. Ranks run from Ace (highest) down to 2 (lowest). Suits are spades, hearts, diamonds, and clubs as in many other games. A face card has a point value of 10; an Ace has a point value of 11; point values for 2...10 are 2...10, respectively. Specify the contents of `ranks`, `suits`, and `pointValues` so that the below statement initializes a deck for a Twenty-One game.
 ```java
 Deck d = new Deck(ranks, suits, pointValues);
 ```
 
-    * Answer
+  *  * Answer
 
 4. Does the order of elements in the `ranks`, `suits`, and `pointValues` arrays matter?
 
